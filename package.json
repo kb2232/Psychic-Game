@@ -1,0 +1,22 @@
+{
+  "name": "psychic-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev":"live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kb2232/Psychic-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kb2232/Psychic-Game/issues"
+  },
+  "homepage": "https://github.com/kb2232/Psychic-Game#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
