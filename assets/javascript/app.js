@@ -13,7 +13,8 @@ var guessWord = document.getElementById("guessword");
 console.log("letter to guess = "+lett);
 
 //app code
-document.addEventListener('keyup',(event)=> {
+document.addEventListener('keyup',(event)=> 
+{
   //to make sure it's a letter only!!
   if(event.keyCode > 64 && event.keyCode < 91)
     {
@@ -48,4 +49,27 @@ document.addEventListener('keyup',(event)=> {
 
 });
 
+/*
+some JQUERY
+*/
+$(document).ready(function() {
+	$('#imgGo').on({
+		click: function() {
+			$(this).hide(1000);
+		},
+	});
+});
 
+$(document).ready(function() {
+	$('#Pgame').on({
+		mouseenter: function() {
+			$(this).css('background-color', 'lightblue');
+		},
+		mouseleave: function() {
+			$(this).css('background-color', 'lightgreen');
+		},
+		click: function() {
+			$(this).css('background-color', 'yellow');
+		},
+	});
+});
